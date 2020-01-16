@@ -1,4 +1,5 @@
-# delete_hidden_files_or_directories
+
+# Delete hidden files or directories
 This script is used to delete hidden files or directories in USB drives.
  
 Bu script, MAC işletim sisteminde, her bir dosya için oluşturulan meta dosyalarını (.dosya_adı) silmek amacıyla hazırlanmış bir applescripttir.
