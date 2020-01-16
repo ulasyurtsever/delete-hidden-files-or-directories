@@ -15,3 +15,9 @@ Silinecek dosya veya klasör seçenekleri:
 4-Folder (.fseventsd*) : fseventsd ile başlayan gizli klasör silinecektir.  
 5-Folder (.Trashes*) : Trashes gizli klasörü silinecektir.  
 6-Folder (System Volume Information) : System Volume Information klasörü silinecektir.  
+
+**DeleteHiddenFilesDirectories.app** ekran görüntüleri:
+
+<p align="center"> <img src="./images/screen1.png"> </p>
+<p align="center"> <img src="./images/screen2.png"> </p>
+<p align="center"> <img src="./images/screen3.png"> </p>
