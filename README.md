@@ -4,11 +4,11 @@ This script is used to delete hidden files or directories in USB drives.
  
 Bu script, MAC işletim sisteminde, her bir dosya için oluşturulan meta dosyalarını (.dosya_adı) silmek amacıyla hazırlanmış bir applescripttir.
  
-MAC işletim sisteminde, hazırladığınız bir dosyayı USB sürücüye kopyalayıp Windows işletim sisteminde açtığınız zaman, her bir dosyanın yanında aynı isimde **nokta (.)** uzantılı bir dosya daha olmaktadır. Özellikle MP3 oynatıcılarda bu gizli dosyalar sorun oluşturabilmektedir. Bu dosyaları tek tek silmek yerine applescript ile silebilirsiniz. Ayrıca bu script dosyasını Apple >> Automator programı yardımıyla uygulama haline getirip MAC işletim sisteminde kullanabilirsiniz. Veya uygulama haline getirilmiş <a href="./DeleteHiddenFilesDirectories.zip">**DeleteHiddenFilesDirectories.zip**</a> dosyasındaki DeleteHiddenFilesDirectories.app uygulama dosyasını bilgisayarınıza indirip direk çalıştırabilirsiniz.
+MAC işletim sisteminde bir dosyayı USB sürücüye kopyalayıp, bu USB sürücüyü Windows işletim sisteminde açtığınız zaman, her bir dosyanın yanında **nokta (.)** ile başlayan aynı isimde bir dosya daha olduğunu göreceksiniz. Özellikle MP3 oynatıcılarda bu gizli dosyalar sorun oluşturabilmektedir. Bu dosyaları tek tek silmek yerine applescript ile toplu olarak silebilirsiniz. Ayrıca bu script dosyasını Apple >> Automator programı yardımıyla uygulama haline getirip MAC işletim sisteminde kullanabilirsiniz. Veya uygulama haline getirilmiş <a href="./DeleteHiddenFilesDirectories.zip">**DeleteHiddenFilesDirectories.zip**</a> dosyasındaki **DeleteHiddenFilesDirectories.app** uygulama dosyasını bilgisayarınıza indirip direk çalıştırabilirsiniz. Ayrıca bu script ile **nokta (.)** ile başlayan bu meta dosyaları dışında, diğer gizli dosya ve klasörleri de silebilirsiniz.
 
 Bu script'i kendi işimi görmek için hızlıca hazırladığımdan dolayı kodlar tam olarak optimize edilmemiştir. Fakat sorunsuz çalışmaktadır.
 
-Silinecek dosya veya klasör seçenekleri:  
+Bu uygulama ile silebileceğiniz dosya veya klasör seçenekleri:  
 1-All hidden files (.file_name*) : Tüm gizli dosyaları silecektir.  
 2-All hidden directory (.directory_name*) : Tüm gizli olan klasörleri silecektir.  
 3-Folder (.Spotlight*) : Spotlight ile başlayan gizli klasör silinecektir.  
