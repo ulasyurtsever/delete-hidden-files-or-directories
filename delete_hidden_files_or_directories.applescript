@@ -186,7 +186,9 @@ if input is not equal to ("false") then
 					end try
 				end if
 			end repeat
-			set sonuc to display dialog ("Hidden files/directories deleted. Unmount the USB drive?") with title ("Delete hidden files or directories in USB drive") with icon stop buttons {"Yes", "No"} default button "Yes"
+			set sonuc to display dialog ("Hidden files/directories deleted. Unmount the USB drive?
+			
+Seçtiğiniz dosyalar/klasörler silinmiştir. USB sürücüsü çıkarılsın mı?") with title ("Delete hidden files or directories in USB drive") with icon stop buttons {"Yes", "No"} default button "Yes"
 			set button_name to button returned of sonuc
 			if button_name = "Yes" then
 				do shell script "diskutil unmount /dev/" & usbname
