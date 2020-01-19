@@ -23,6 +23,6 @@ Silinecek dosya veya klasör seçenekleri:
 
 **DeleteHiddenFilesDirectories.app** ekran görüntüleri:
 
-<p align="center"> <img src="./images/sc1.png"> </p>
-<p align="center"> <img src="./images/sc2.png"> </p>
-<p align="center"> <img src="./images/sc3.png"> </p>
+<p align="center"> <img src="./images/s1.png"> </p>
+<p align="center"> <img src="./images/s2.png"> </p>
+<p align="center"> <img src="./images/s3.png"> </p>
