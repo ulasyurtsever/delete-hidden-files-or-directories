@@ -19,6 +19,7 @@ Silinecek dosya veya klasör seçenekleri:
 8-File (.DS_Store) : DS_Store gizli dosyası silinecektir.  
 9-File (Thumbs.ini) : Thumbs.ini dosyası silinecektir.  
 10-File (Desktop.ini) : Desktop.ini dosyası silinecektir.  
+11-Folder ($Recycle.bin) : Recycle.bin geri dönüşüm klasörü silinecektir.  
 
 **DeleteHiddenFilesDirectories.app** ekran görüntüleri:
 
