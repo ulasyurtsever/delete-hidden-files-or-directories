@@ -112,7 +112,7 @@ Lütfen USB sürücü adını kontrol ediniz. Bu isimde bir USB sürücüsü bul
 end repeat
 
 --Silineceklerin neler olacağını kullanıcının seçeceği ekran geliyor...
-set input to (choose from list {"01-All hidden files (.file_name*),", "02-All hidden directory (.directory_name*),", "03-Folder (.Spotlight*),", "04-Folder (.fseventsd*),", "05-Folder (.Trashes*),", "06-Folder (System Volume Information),", "07-(.AppleDouble),", "08-(.DS_Store),", "09-Thumbs.ini,", "10-Desktop.ini,", "11-$Recycle.bin,"} with title "Delete hidden files or directories in USB drive" with prompt "Select the ones you want to delete from the list below (you can multiple selections).
+set input to (choose from list {"01-All hidden files (.file_name*),", "02-All hidden directory (.directory_name*),", "03-Folder (.Spotlight*),", "04-Folder (.fseventsd*),", "05-Folder (.Trashes*),", "06-Folder (System Volume Information),", "07-Folder (.AppleDouble),", "08-File (.DS_Store),", "09-File (Thumbs.ini),", "10-File (Desktop.ini),", "11-Folder ($Recycle.bin),"} with title "Delete hidden files/directories in USB drive" with prompt "Select the ones you want to delete from the list below (you can multiple selections).
 
 Aşağıdaki listeden silmek istediklerinizi seçiniz (çoklu seçim yapabilirsiniz...)." default items {"01-All hidden files (.file_name*),", "03-Folder (.Spotlight*),", "04-Folder (.fseventsd*),", "05-Folder (.Trashes*),", "06-Folder (System Volume Information),"} OK button name "Continue" cancel button name "Cancel" with multiple selections allowed) as text
 
