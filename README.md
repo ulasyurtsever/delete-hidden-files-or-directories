@@ -15,6 +15,10 @@ Silinecek dosya veya klasör seçenekleri:
 4-Folder (.fseventsd*) : fseventsd ile başlayan gizli klasör silinecektir.  
 5-Folder (.Trashes*) : Trashes gizli klasörü silinecektir.  
 6-Folder (System Volume Information) : System Volume Information klasörü silinecektir.  
+7-Folder (.AppleDouble) : AppleDouble gizli klasörü silinecektir.  
+8-File (.DS_Store) : DS_Store gizli dosyası silinecektir.  
+9-File (Thumbs.ini) : Thumbs.ini dosyası silinecektir.  
+10-File (Desktop.ini) : Desktop.ini dosyası silinecektir.  
 
 **DeleteHiddenFilesDirectories.app** ekran görüntüleri:
 
